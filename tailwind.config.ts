@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 const config: Config = {
   content: [
@@ -7,6 +8,9 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+      fontFamily: {
+        Anek_Latin: ['var(--font-anek_latin)', ...defaultTheme.fontFamily.sans],
+      },
     extend: {
       colors: {
         background: "var(--background)",
