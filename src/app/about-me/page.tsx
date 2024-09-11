@@ -1,9 +1,9 @@
 import Image from "next/image"
 export default function AboutMe() {
   return (
-    <div className="w-full h-screen">
+    <div className="w-screen h-screen">
     {/* Start of Hero */}
-      <Image className=" -z-10 object-cover absolute  w-full h-full " src="/images/background-image-three.jpg" width={4500} height={3000} alt="" ></Image>
+      <Image className=" -z-10 object-cover absolute  w-screen h-screen " src="/images/background-image-three.jpg" width={4500} height={3000} alt="" ></Image>
       <div className=" z-20 flex flex-col justify-center items-center w-screen h-screen text-neutral-800 font-Anek_Latin ">
         <div className="mx-11 leading-10 backdrop-blur-sm rounded-3xl bg-transparent/20 p-5 border-5 border-shadow">
           <h1 className=" text-lg text-start items-center whitespace-pre-line">About Me</h1>
